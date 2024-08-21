@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sop umar</string>
+    <string name="title_activity_main">sop umar</string>
+    <string name="package_name">sopumar.com</string>
+    <string name="custom_url_scheme">sopumar.com</string>
+</resources>

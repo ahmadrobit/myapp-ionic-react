@@ -1,0 +1,10 @@
+{
+  "appId": "sopumar.com",
+  "appName": "sop umar",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

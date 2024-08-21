@@ -1,0 +1,8 @@
+https://framework7.io/vue/installation
+    npm install framework7-vue
+https://ionicframework.com/docs/intro/cli
+    ionic serve █
+    npm install -g @ionic/cli
+    https://ionicframework.com/docs/vue/overview
+        ionic start myApp tabs --type vue
+        
