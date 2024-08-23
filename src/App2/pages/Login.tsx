@@ -17,7 +17,7 @@ const Login: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <Container>
-          berada
+          data
         </Container>
       </IonContent>
     </IonPage>

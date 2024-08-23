@@ -1,7 +1,7 @@
 import './Container.css';
 
 interface ContainerProps {
-  name: string;
+  children: string;
 }
 
 const Container: React.FC<ContainerProps> = ({ children }) => {

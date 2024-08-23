@@ -23,7 +23,7 @@ const RouterOutlet: React.FC = () => (
             <Tab4 />
         </Route>
         <Route exact path="/">
-            <Redirect to="/tab2" />
+            <Redirect to="/login" />
         </Route>
     </>
   );
