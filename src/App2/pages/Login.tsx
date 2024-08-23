@@ -1,6 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import Container from '../components/Container';
-
 
 const Login: React.FC = () => {
   return (
@@ -16,9 +15,7 @@ const Login: React.FC = () => {
             <IonTitle size="large">Login</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <Container>
-          data
-        </Container>
+        <IonButton href="/tab2"> goto Tab 2</IonButton>
       </IonContent>
     </IonPage>
   );
