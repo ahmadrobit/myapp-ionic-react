@@ -1,23 +1,11 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import Container from '../components/Container';
+import { IonButton} from '@ionic/react';
+import Page from '../components/Page';
 
 const Login: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Login</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Login</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonButton href="/tab2"> goto Tab 2</IonButton>
-      </IonContent>
-    </IonPage>
+    <Page title='Login'>
+      <IonButton href="/Home">ke Home 1</IonButton>
+    </Page>
   );
 };
 

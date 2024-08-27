@@ -4,9 +4,13 @@ import Tab2 from './../pages/Tab2';
 import Tab3 from './../pages/Tab3';
 import Tab4 from './../pages/Tab4';
 import Login from '../pages/Login';
+import Home from '../pages/Home';
 
 const RouterOutlet: React.FC = () => (
     <>
+        <Route exact path="/home">
+            <Home />
+        </Route>
         <Route exact path="/login">
             <Login />
         </Route>
